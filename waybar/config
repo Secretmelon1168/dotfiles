@@ -7,7 +7,7 @@
     // "gtk-layer-shell": true,
     "height": 30,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["mpd"],
+    "modules-center": ["mpris"],
     "modules-right": ["clock", "cpu", "memory", "backlight", "battery", "pulseaudio","pulseaudio#microphone", "tray"],
     "hyprland/window": {
         "format": "{}"

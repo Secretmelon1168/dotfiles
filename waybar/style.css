@@ -205,13 +205,14 @@ tooltip {
 }
 
 #mpris {
-  border-radius: 7px;
-  margin-right: 5px;
-  border-right: 0px;
+  border-radius: 7px 7px;
+  margin-right: 0px;
+  /* border-right: 0px; */
+
 }
 
 #mpris.paused {
-  border-bottom: 2px solid @yellow;
+  border-bottom: 2px solid @color12;
 }
 
 #mpd {

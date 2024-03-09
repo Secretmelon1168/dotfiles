@@ -19,3 +19,7 @@ if status is-interactive
 	cat ~/.cache/wal/sequences
 	meowfetch
 end
+zoxide init --cmd cd fish | source
+
+# Created by `pipx` on 2024-02-29 09:07:23
+set PATH $PATH /home/melon/.local/bin

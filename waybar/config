@@ -49,8 +49,11 @@
     },
 
     "clock": {
-        "format": "{:  %H:%M }",
-        "format-alt":"{:  %a, %b %e }",
+		// "format": "{:%H:%M }",
+        // "format": "{:  %H:%M }",
+        "format": "  {:%H:%M }",
+        // "format-alt":"{:  %a, %b %e }",
+        "format-alt":"  {:%a, %b %e }",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
@@ -73,15 +76,14 @@
         "format": "{icon}  {capacity}%",
         "format-charging": "  {capacity}%",
         "format-plugged": "  {capacity}%",
-        "format-alt": "{time}  {icon}",
+        "format-alt": "{time}  {icon} ",
         // "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
 		"format-icons": ["", "", "", "", ""],
 		"min-length": 6
     },
 
     "pulseaudio": {
-		"ignored-sinks": "Eash Effects Sink",
-		"ignored-sinks": "Monitor of Easy Effects Sink",
+		"ignored-sinks": ["Easy Effects Sink"],
         "format": "{icon} {volume}%",
         "tooltip": false,
         "format-muted": " Muted",

@@ -6,7 +6,7 @@ if status is-interactive
 	alias mountwin='sudo mount /dev/nvme0n1p3 /run/mount'
 	alias sd0="shutdown 0"
 	alias rb0="systemctl reboot"
-	alias dslr_capture="gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video1"
+	alias dslr_capture="gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p -threads 0 -f v4l2 /dev/video0"
 	alias hdmion="xrandr --output 'eDP1' --auto --output 'HDMI1' --auto --right-of 'eDP1' | wal -R"
 	alias hdmioff="xrandr --output 'eDP1' --auto --output 'HDMI1' --off"
 	alias walr="wal -R"
@@ -23,3 +23,5 @@ zoxide init --cmd cd fish | source
 
 # Created by `pipx` on 2024-02-29 09:07:23
 set PATH $PATH /home/melon/.local/bin
+
+# thefuck --alias | source

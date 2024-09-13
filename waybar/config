@@ -83,7 +83,7 @@
     },
 
     "pulseaudio": {
-		"ignored-sinks": ["Easy Effects Sink"],
+		"ignored-sinks": ["Easy Effects Sink", "AudioRelay Speaker", "AudioRelay Mic&Sink"],
         "format": "{icon} {volume}%",
         "tooltip": false,
         "format-muted": " Muted",

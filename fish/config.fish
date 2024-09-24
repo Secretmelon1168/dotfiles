@@ -13,7 +13,7 @@ if status is-interactive
 	alias pywal-obsidian="pkill obsidian & /home/melon/pywal-obsidianmd/pywal-obsidianmd.sh "/home/melon/obsidian/Uni""
 	alias iwdwifion="iwctl device wlan0 set-property Powered on"
 	alias iwdwifioff="iwctl device wlan0 set-property Powered off"
-	alias l="ls -l"
+	alias l="ls -lah"
 	alias vi='vim'
 	cat ~/.cache/wal/sequences
 	meowfetch
